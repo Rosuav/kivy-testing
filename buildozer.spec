@@ -146,6 +146,9 @@ android.sdk = 24
 # bootstrap)
 #android.gradle_dependencies =
 
+# (list) Java classes to add as activities to the manifest.
+#android.add_activites = com.example.ExampleActivity
+
 # (str) python-for-android branch to use, defaults to stable
 #p4a.branch = stable
 
@@ -200,6 +203,9 @@ android.arch = armeabi-v7a
 
 # (str) Bootstrap to use for android builds
 # p4a.bootstrap = sdl2
+
+# (int) port number to specify an explicit --port= p4a argument (eg for bootstrap flask)
+#p4a.port =
 
 
 #
