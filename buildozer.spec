@@ -40,7 +40,7 @@ requirements = kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
-# requirements.source.kivy = ../../kivy
+requirements.source.kivy = ../kivy
 
 # (list) Garden requirements
 #garden_requirements =
