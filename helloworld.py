@@ -20,6 +20,7 @@ class HelloApp(App):
 			self.hitcount = 1
 			msg = "Hit me again!"
 		self.root.text = msg
+		return super().on_touch_down(touch)
 
 	def waiting(self, delay):
 		self.root.text = "Go on, hit me!"
